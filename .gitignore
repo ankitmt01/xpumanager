@@ -11,7 +11,7 @@ cli/src/config.h
 daemon/config.h
 lib/
 pci.ids.upgrade
-core/test/xpumd
+!core/test/xpumd
 daemon/core.grpc.pb.cc
 daemon/core.grpc.pb.h
 daemon/core.pb.cc
@@ -22,7 +22,7 @@ daemon/core.pb.h
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
-daemon/xpum.service
+!daemon/xpum.service
 daemon/resources/
 daemon/config/
 rest/xpum_rest.service
